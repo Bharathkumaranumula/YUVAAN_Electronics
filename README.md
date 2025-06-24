@@ -21,6 +21,7 @@ Emergency Kill-Switch: Disconnects power instantly in critical situations for sa
 PCB Design: Custom-designed PCB ensures organised connections, minimises signal loss, and provides stable voltage distribution.
 
 
+
 🧠 Control System Architecture
 
 Onboard Computer: NVIDIA Jetson Orin Nano
@@ -34,6 +35,7 @@ Sensors: pH, NPK, BME280, Spectrometer, MQ2 Gas Sensor, USB Microscope, Soil Moi
 Cameras: ZED Camera, Intel RealSense, Webcams
 
 
+
 📡 Communication System
 
 Antenna setup:
@@ -44,6 +46,7 @@ ROS servers on Jetson and base station manage data flow; firewall rules ensure s
 
 Automation:
 Bash scripts automate key operations (sensor/motor initialisation, mode switching)
+
 
 💻 Software & Control
 
@@ -62,16 +65,21 @@ Rover Control Centre:
 Web-based dashboard using Flask + JS
 Live panoramic video, speed, joint positions, and error logs
 
-🚀 Key Components Summary
-Component	Details
-Main Computer	NVIDIA Jetson Orin Nano
-Microcontrollers	Arduino Mega, Arduino Uno
-Motor Drivers	Cytron MDD20A, L298N
-Power	3x Li-Po (25,000 mAh, 22.2V, 25C)
-Main Sensors	pH, NPK, BME280, Spectrometer, USB Microscope
-Cameras	ZED, Intel RealSense, Webcams
-Communication	ROS over Wi-Fi (Access Point + Client setup)
-Emergency Protection	Hardware kill switch
+
+## 🚀 Key Components Summary
+
+| 🏷️ Component            | ⚡ Details                                                   |
+|-------------------------|-------------------------------------------------------------|
+| **Main Computer**        | NVIDIA Jetson Orin Nano                                     |
+| **Microcontrollers**     | Arduino Mega, Arduino Uno                                   |
+| **Motor Drivers**        | Cytron MDD20A, L298N                                        |
+| **Power**                | 3x Li-Po (25,000 mAh, 22.2V, 25C)                           |
+| **Main Sensors**         | pH, NPK, BME280, Spectrometer, MQ2 Gas Sensor, USB Microscope |
+| **Cameras**              | ZED Camera, Intel RealSense, Webcams                        |
+| **Communication**        | ROS over Wi-Fi (Access Point + Client setup)                |
+| **Emergency Protection** | Hardware kill switch                                        |
+
+
 
 🛠️ Electronics Architecture Diagram
 mathematica
