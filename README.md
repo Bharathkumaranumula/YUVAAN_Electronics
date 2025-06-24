@@ -51,14 +51,14 @@ ROS Noetic Framework for seamless subsystem integration
 
 Manual Mode: Gamepad-based direct control
 
-Autonomous Mode:
 
+Autonomous Mode:
 YOLO + ResNet pipeline for arrow detection and direction classification
 ZED camera for distance estimation
 ROS topics for command publishing
 
-Rover Control Centre:
 
+Rover Control Centre:
 Web-based dashboard using Flask + JS
 Live panoramic video, speed, joint positions, and error logs
 
