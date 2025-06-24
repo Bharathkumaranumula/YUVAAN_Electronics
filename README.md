@@ -16,9 +16,10 @@ Sub-systems powered:
 
 ✅ Astrobiology Assembly
 
-Emergency Kill-Switch:Disconnects power instantly in critical situations for safety.
+Emergency Kill-Switch: Disconnects power instantly in critical situations for safety.
 
-PCB Design:Custom-designed PCB ensures organised connections, minimises signal loss, and provides stable voltage distribution.
+PCB Design: Custom-designed PCB ensures organised connections, minimises signal loss, and provides stable voltage distribution.
+
 
 🧠 Control System Architecture
 
@@ -28,9 +29,10 @@ Microcontrollers: Arduino Mega and Arduino Uno (for various subsystems)
 
 Motor Drivers: Cytron MDD20A, L298N
 
-Sensors:pH, NPK, BME280, Spectrometer, MQ2 Gas Sensor, USB Microscope, Soil Moisture Sensor
+Sensors: pH, NPK, BME280, Spectrometer, MQ2 Gas Sensor, USB Microscope, Soil Moisture Sensor
 
-Cameras:ZED Camera, Intel RealSense, Webcams
+Cameras: ZED Camera, Intel RealSense, Webcams
+
 
 📡 Communication System
 
